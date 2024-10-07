@@ -1,13 +1,12 @@
-* {
+*{
     background-color: white;
     font-family: Nunito Sans;
     padding: 0px;
     margin: 0px;
 }
 
-.navBar {
-    width: 100%; 
-    max-width: 1500px; 
+.navBar{
+    width: 1500px;
     height: 70px;
     display: flex;
     align-items: center;
@@ -15,67 +14,67 @@
     font-weight: 700;
     box-shadow: 0px 2px rgb(216, 206, 206);
     margin-bottom: 60px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
-.heroSection {
-    padding-left: 20px; 
-    padding-right: 20px; 
-}
+.heroSection{
+    padding-left: 200px;
+    padding-right: 200px;
 
-.searchDiv {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    flex-wrap: wrap; 
-}
+    .searchDiv{
+        display: flex;
+        justify-content: space-between;
+        position: relative;
 
-#searchBar {
-    border: none;
-    box-shadow: 1px 1px 4px 2px rgb(216, 206, 206);
-    height: 50px;
-    width: 300px; 
-    padding-left: 20px;
-    margin-right: 20px; 
-}
+        #searchBar{
+            border: none;
+            box-shadow: 1px 1px 4px 2px rgb(216, 206, 206);
+            height: 50px;
+            width: 500px;
+            padding-left: 20px;
+        }
 
-#filter {
-    border: none;
-    box-shadow: 1px 1px 4px 2px rgb(216, 206, 206);
-    height: 50px;
-    width: 200px; 
-    padding-left: 20px;
+        #filter{
+            border: none;
+            box-shadow: 1px 1px 4px 2px rgb(216, 206, 206);
+            height: 50px;
+            width: 200px;
+            padding-left: 20px;
+            margin-left: 1000px;
+        }
+    }
 }
-
-.countries {
+.countries{
     margin-top: 100px;
 }
 
-.cards {
+.cards{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 75px;
+
 }
 
-.country {
+.country{
     height: 400px;
     box-shadow: 1px 1px 4px 2px rgb(216, 206, 206);
+
+    #images{
+        width: 320px;
+        height: 180px;
+    }
+
+    .name{
+       font-size: 30px;
+       font-weight: 800;
+       margin-top: 30px;
+       margin-left: 30px;
+       margin-bottom: 20px;
+    }
+
+    #content{
+        margin-left: 30px;
+    }
 }
 
-#images {
-    width: 100%; 
-    height: auto;
-}
-
-.name {
-    font-size: 30px;
-    font-weight: 800;
-    margin-top: 30px;
-    margin-left: 30px;
-    margin-bottom: 20px;
-}
-
-#content {
-    margin-left: 30px;
-}
